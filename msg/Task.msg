@@ -1,3 +1,3 @@
-Velocity linear_velocity
-Velocity angular_velocity
+LinearTask linear_task
+AngularTask angular_task
 
