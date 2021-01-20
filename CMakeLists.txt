@@ -12,7 +12,7 @@ geometry_msgs
 
 add_message_files(
 DIRECTORY msg
-FILES LinearTask.msg AngularTask.msg Task.msg
+FILES LinearTask.msg AngularTask.msg DOFTask.msg Task.msg
 )
 add_action_files(
   DIRECTORY action
