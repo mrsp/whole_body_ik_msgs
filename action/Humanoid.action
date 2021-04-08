@@ -6,7 +6,7 @@ whole_body_ik_msgs/Task Torso
 whole_body_ik_msgs/Task LHand
 whole_body_ik_msgs/Task RHand
 whole_body_ik_msgs/Task Head
-whole_body_ik_msgs/Task[] Joints
+whole_body_ik_msgs/DOFTask[] Joints
 float64 dt
 ---
 # Define the result

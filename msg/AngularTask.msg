@@ -1,3 +1,4 @@
-geometry_msgs/Quaternion des
+geometry_msgs/Quaternion desired_orientation
+geometry_msgs/Point desired_angular_velocity
 float64 weight
 float64 gain
