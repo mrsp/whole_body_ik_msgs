@@ -7,6 +7,8 @@ whole_body_ik_msgs/Task LHand
 whole_body_ik_msgs/Task RHand
 whole_body_ik_msgs/Task Head
 whole_body_ik_msgs/DOFTask[] Joints
+nav_msgs/Odometry odom
+sensor_msgs/JointState joint_state
 float64 dt
 ---
 # Define the result

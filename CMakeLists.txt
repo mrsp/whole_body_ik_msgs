@@ -8,6 +8,8 @@ message_generation
 actionlib
 actionlib_msgs
 geometry_msgs
+nav_msgs
+sensor_msgs
 )
 
 add_message_files(
@@ -24,6 +26,8 @@ DEPENDENCIES
 std_msgs
 actionlib_msgs
 geometry_msgs
+nav_msgs
+sensor_msgs
 )
 
-catkin_package( CATKIN_DEPENDS std_msgs geometry_msgs message_runtime)
+catkin_package( CATKIN_DEPENDS std_msgs geometry_msgs sensor_msgs nav_msgs message_runtime)
