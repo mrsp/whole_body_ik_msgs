@@ -13,6 +13,7 @@ float64 dt
 ---
 # Define the result
 int32 status
+sensor_msgs/JointState joint_cmd_state
 ---
 # Define a feedback message
 float32 percent_completed
